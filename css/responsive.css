@@ -1,0 +1,16 @@
+@media only screen and (min-width: 700px){
+  html{font-size: 70%;}
+ .tab_layout_container{margin: 0 8rem;}
+}
+@media only screen and (min-width: 1100px){
+  html{font-size: 80%;}
+ .desktop_layout_container{width: 1100px; margin: 0 auto;}
+ #index_content_area .inden_content_container .index_content_info{width: 48%; margin: 0 1%; padding-top: 3rem;}
+ #index_content_area .inden_content_container .index_content_img {width: 48%; margin: 0 1%;}
+ .index_link_container .index_link_item {width: 30%;}
+ .tab_layout_container {overflow: hidden;}
+ #header_area{height: auto;position: fixed; width: 100%; z-index: 10; box-shadow: 2px 2px 6px rgb(63, 63, 63);}
+ nav {float: right; padding-top: 1.2rem;}
+ .logo_area {float: left;}
+ .index_link_container {padding: 2.5rem 0;}
+}
